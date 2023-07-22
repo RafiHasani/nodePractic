@@ -17,6 +17,8 @@ app.use(express.json());
 
 app.use("/", express.static(path.join(__dirname, "/public")));
 app.use("/", require("./routes/root"));
+app.use("/register", require("./routes/api/register"));
+app.use("/login", require("./routes/api/auth"));
 app.use("/employees", require("./routes/api/employees"));
 
 app.all("*", (req, res) => {
@@ -31,5 +33,6 @@ app.all("*", (req, res) => {
     res.type("txt").send("404 Not Found");
   }
 });
+
 app.use(errorHandler);
 app.listen(PORT, () => console.log("Server listening on " + PORT));
