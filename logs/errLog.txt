@@ -1,0 +1,5 @@
+2023-07-24	 01:15	 f3c8a48a-8cc2-4a91-a4d9-0c0ddfa08b03	 TypeError Cannot read properties of undefined (reading 'jwt')
+2023-07-24	 01:17	 7cf98d6a-1c86-48d8-9fc1-bde2fe75c56c	 TypeError Cannot read properties of undefined (reading 'jwt')
+2023-07-24	 01:18	 3f977c5b-eaf7-4070-b510-d3c4b8c5dd5e	 TypeError Cannot read properties of undefined (reading 'jwt')
+2023-07-24	 01:21	 53cf2cf1-6047-4c04-bd8a-b470e3be3df6	 TypeError res.statue is not a function
+2023-07-24	 01:22	 a3aa0ad9-41db-4659-ae0c-b619554839d7	 TypeError res.status(...).join is not a function

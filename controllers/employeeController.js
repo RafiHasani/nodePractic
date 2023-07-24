@@ -46,7 +46,6 @@ const updateEmployee = (req, res) => {
   employee.firstname = req.body.firstname;
   employee.lastname = req.body.lastname;
 
-  console.log(employee);
 
   const filteredArray = data.employees.filter(
     (employee) => employee.id !== parseInt(req.body.id)
